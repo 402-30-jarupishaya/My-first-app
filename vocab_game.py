@@ -16,7 +16,8 @@ def reset_game():
     st.session_state.ans2_val = ""  # เคลียร์ค่าช่องข้อ 2
     st.session_state.start = time.time()  # เริ่มเวลาใหม่
     st.session_state.is_ended = False  # ปิด Dialog
-  
+
+
 # ----------------------------------------------------
 # 📌 ฟังก์ชัน MessageBox (Dialog)
 # ----------------------------------------------------
@@ -45,6 +46,7 @@ def show_result_dialog(ans1, ans2):
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
 
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
+    
    if score == 2:
         st.success("🎉 You win!")
     else:
