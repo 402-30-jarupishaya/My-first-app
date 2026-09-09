@@ -2,6 +2,7 @@ import time
 import streamlit as st
 
 st.title("เกมทายศัพท์หมวดเฟอร์นิเจอร์🛋️")
+st.title("ทายคำศัพท์จากคำใบ้ให้ครบทั้ง 5 คำ !")
 
 # 1. กำหนดค่าเริ่มต้นใน session_state
 if "ans1_val" not in st.session_state:
@@ -81,7 +82,7 @@ ans1 = st.text_input(
     key="ans1_val",
 )
 ans2 = st.text_input(
-    "ข้อ 2:  `t _ l _ vis _ on `.A screen in the living room used for watching movies, and shows.",
+    "ข้อ 2:  `t _ l _ vis _ on `.A screen in the living room used for watching movies, and shows.📺",
     key="ans2_val",
 )
 
