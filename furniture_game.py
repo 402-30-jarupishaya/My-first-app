@@ -1,7 +1,7 @@
 import time
 import streamlit as st
+st.markdown("<h1 style='color: purple; text-align: center;'>เกมทายศัพท์หมวดเฟอร์นิเจอร์🛋️</h1>",unsafe_allow_html=True,)
 
-st.title("# :purple[เกมทายศัพท์หมวดเฟอร์นิเจอร์🛋️]")
 st.write("ทายคำศัพท์จากคำใบ้ให้ครบทั้ง 5 คำ !")
 
 # 1. กำหนดค่าเริ่มต้นใน session_state
