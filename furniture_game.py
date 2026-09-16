@@ -86,8 +86,10 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
 
     if score == 5:
         st.success("😍 โหดขั้นเทพระดับมาเฟีย")
-    else:
-        st.error("🐔 กระจอกระดับขี้ไก่")
+    if score == 4:
+        st.success("😯คนธรรมด๊าาา ธรรมดาา")
+    #else:
+        #st.error("🐔 กระจอกระดับขี้ไก่")
 
 
 # ----------------------------------------------------
