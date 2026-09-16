@@ -9,11 +9,11 @@ if "ans1_val" not in st.session_state:
     st.session_state.ans1_val = ""
 if "ans2_val" not in st.session_state:
     st.session_state.ans2_val = ""
-    if "ans3_val" not in st.session_state:
+if "ans3_val" not in st.session_state:
     st.session_state.ans3_val = ""
 if "ans4_val" not in st.session_state:
     st.session_state.ans4_val = ""
-    if "ans5_val" not in st.session_state:
+if "ans5_val" not in st.session_state:
     st.session_state.ans5_val = ""
 if "game_started" not in st.session_state:
     st.session_state.game_started = False
@@ -23,7 +23,7 @@ if "game_started" not in st.session_state:
 def reset_game():
     st.session_state.ans1_val = ""  # เคลียร์ค่าช่องข้อ 1
     st.session_state.ans2_val = ""  # เคลียร์ค่าช่องข้อ 2
-     st.session_state.ans3_val = ""  # เคลียร์ค่าช่องข้อ 3
+    st.session_state.ans3_val = ""  # เคลียร์ค่าช่องข้อ 3
     st.session_state.ans4_val = ""  # เคลียร์ค่าช่องข้อ 4 
     st.session_state.ans5_val = ""  # เคลียร์ค่าช่องข้อ 5
     st.session_state.start = time.time()  # เริ่มเวลาใหม่
