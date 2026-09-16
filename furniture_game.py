@@ -84,7 +84,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
 
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
-   if score == 5:
+    if score == 5:
         st.success("😍 โหดขั้นเทพระดับมาเฟีย")
     else:
         st.error("🐔 กระจอกระดับขี้ไก่")
