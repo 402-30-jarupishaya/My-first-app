@@ -62,7 +62,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
 
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4, 5 ตรงนี้
    # ตรวจข้อ 3
-    if u_ans3 == " table":
+    if u_ans3 == "table":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
