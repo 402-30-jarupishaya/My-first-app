@@ -90,11 +90,11 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.success("😯คนธรรมด๊าาา ธรรมดาา")
     if score == 3:
         st.success("😯คนธรรมด๊าาา ธรรมดาา")
-     if score == 2:
+    if score == 2:
         st.success("😯คนธรรมด๊าาา ธรรมดาา")
-     if score == 1:
+    if score == 1:
         st.success("😯คนธรรมด๊าาา ธรรมดาา")
-        if score == 0:
+    if score == 0:
         st.success("🐔 กระจอกระดับขี้ไก่")
   
 
