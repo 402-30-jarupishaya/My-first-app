@@ -41,9 +41,9 @@ def show_result_dialog(ans1, ans2):
 
     u_ans1 = ans1.strip().lower()
     u_ans2 = ans2.strip().lower()
-  u_ans3 = ans3.strip().lower()
+    u_ans3 = ans3.strip().lower()
     u_ans4 = ans4.strip().lower()
-  u_ans5 = ans5.strip().lower()
+    u_ans5 = ans5.strip().lower()
     
 
     # ตรวจข้อ 1
@@ -86,7 +86,7 @@ def show_result_dialog(ans1, ans2):
 
    if score == 5:
         st.success("😍 โหดขั้นเทพระดับมาเฟีย")
-     if score == 4:
+  if score == 4:
       st.success("🎉 คนธรรมด๊าาา ธรรมดาา")
      #if score == 0:
      # st.success("🐔 กระจอกระดับขี้ไก่")
