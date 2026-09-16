@@ -86,8 +86,8 @@ def show_result_dialog(ans1, ans2):
 
    if score == 5:
         st.success("😍 โหดขั้นเทพระดับมาเฟีย")
-  if score == 4:
-      st.success("🎉 คนธรรมด๊าาา ธรรมดาา")
+  #if score == 4:
+     # st.success("🎉 คนธรรมด๊าาา ธรรมดาา")
      #if score == 0:
      # st.success("🐔 กระจอกระดับขี้ไก่")
 
