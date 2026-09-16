@@ -120,25 +120,25 @@ st.divider()
 
 # 3. ช่องรับคำตอบ
 ans1 = st.text_input(
-    "ข้อ 1: `b _ d`.It supports the mattress and your body while sleeping.😴",
+    "ข้อ 1: `b _ d`/ It supports the mattress and your body while sleeping.😴",
     key="ans1_val",
 )
 ans2 = st.text_input(
-    "ข้อ 2:  `t _ l _ vis _ on `.A screen in the living room used for watching movies, and shows.📺",
+    "ข้อ 2:  `t _ l _ vis _ on `/ A screen in the living room used for watching movies, and shows.📺",
     key="ans2_val",
 )
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4, 5 ตรงนี้
 ans3 = st.text_input(
-    "ข้อ 3: `_ a _ _ e`.Have legs but cannot walk. You can put your food or books on me.📚",
+    "ข้อ 3: `_ a _ _ e`/ Have legs but cannot walk. You can put your food or books on me.📚",
     key="ans3_val",
 )
 ans4 = st.text_input(
-    "ข้อ 4:  `s _ _ a`.It features soft cushions and armrests, designed for multiple people to sit on.🛋",
+    "ข้อ 4:  `s _ _ a`/ It features soft cushions and armrests, designed for multiple people to sit on.🛋",
     key="ans4_val",
 )
 ans5 = st.text_input(
-    "ข้อ 5: `_ i r r _ r `.A glass surface that reflects your image when you look into it.🚽 ",
+    "ข้อ 5: `_ i r r _ r `/ A glass surface that reflects your image when you look into it.🚽 ",
     key="ans5_val",
 )
 
