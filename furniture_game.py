@@ -35,7 +35,7 @@ def reset_game():
 # 📌 ฟังก์ชัน MessageBox (Dialog)
 # ----------------------------------------------------
 @st.dialog("📊 สรุปผลการเล่นเกม")
-def show_result_dialog(ans1, ans2):
+def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
     st.balloons()
     score = 0
 
@@ -86,11 +86,6 @@ def show_result_dialog(ans1, ans2):
 
    if score == 5:
         st.success("😍 โหดขั้นเทพระดับมาเฟีย")
-    #if score == 4:
-     # st.success("🎉 คนธรรมด๊าาา ธรรมดาา")
-     #if score == 0:
-     # st.success("🐔 กระจอกระดับขี้ไก่")
-
     else:
         st.error("🐔 กระจอกระดับขี้ไก่")
 
